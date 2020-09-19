@@ -1,0 +1,13 @@
+.\objects\enc28j60.o: User\Sources\enc28j60.c
+.\objects\enc28j60.o: .\CMSIS\Headers\stm32f10x.h
+.\objects\enc28j60.o: .\CMSIS\Headers\core_cm3.h
+.\objects\enc28j60.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\enc28j60.o: .\CMSIS\Headers\system_stm32f10x.h
+.\objects\enc28j60.o: .\User\Headers\gpio.h
+.\objects\enc28j60.o: .\User\Headers\enc28j60.h
+.\objects\enc28j60.o: .\User\Headers\spi.h
+.\objects\enc28j60.o: .\User\Headers\uart.h
+.\objects\enc28j60.o: .\User\Headers\tims.h
+.\objects\enc28j60.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\enc28j60.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\enc28j60.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
