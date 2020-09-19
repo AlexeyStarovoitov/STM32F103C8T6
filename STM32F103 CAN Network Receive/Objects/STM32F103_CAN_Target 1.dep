@@ -1,0 +1,53 @@
+Dependencies for Project 'STM32F103_CAN', Target 'Target 1': (DO NOT MODIFY !)
+F (.\CMSIS\Headers\core_cm3.h)(0x4D5281A8)()
+F (.\CMSIS\Headers\stm32f10x.h)(0x5E3D25D7)()
+F (.\CMSIS\Headers\system_stm32f10x.h)(0x4D7882FA)()
+F (.\CMSIS\Sources\core_cm3.c)(0x4C0C9ECE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\User\Headers -I .\CMSIS\Headers-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+F (.\CMSIS\Sources\system_stm32f10x.c)(0x4D788300)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\User\Headers -I .\CMSIS\Headers-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (.\CMSIS\Headers\stm32f10x.h)(0x5E3D25D7)
+I (.\CMSIS\Headers\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (.\CMSIS\Headers\system_stm32f10x.h)(0x4D7882FA)
+F (.\User\Headers\can.h)(0x5E4180BF)()
+F (.\User\Headers\gpio.h)(0x5E4172CE)()
+F (.\User\Headers\tims.h)(0x5E413FD8)()
+F (.\User\Source\main.c)(0x5E41913D)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\User\Headers -I .\CMSIS\Headers-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\CMSIS\Headers\stm32f10x.h)(0x5E3D25D7)
+I (.\CMSIS\Headers\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (.\CMSIS\Headers\system_stm32f10x.h)(0x4D7882FA)
+I (.\User\Headers\tims.h)(0x5E413FD8)
+I (.\User\Headers\gpio.h)(0x5E4172CE)
+I (.\User\Headers\can.h)(0x5E4180BF)
+F (.\User\Source\can.c)(0x5E418CD6)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\User\Headers -I .\CMSIS\Headers-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD-o .\objects\can.o --omf_browse .\objects\can.crf --depend .\objects\can.d)
+I (.\CMSIS\Headers\stm32f10x.h)(0x5E3D25D7)
+I (.\CMSIS\Headers\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (.\CMSIS\Headers\system_stm32f10x.h)(0x4D7882FA)
+I (.\User\Headers\can.h)(0x5E4180BF)
+I (.\User\Headers\gpio.h)(0x5E4172CE)
+F (.\User\Source\gpio.c)(0x5E4191AF)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\User\Headers -I .\CMSIS\Headers-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (.\CMSIS\Headers\stm32f10x.h)(0x5E3D25D7)
+I (.\CMSIS\Headers\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (.\CMSIS\Headers\system_stm32f10x.h)(0x4D7882FA)
+I (.\User\Headers\gpio.h)(0x5E4172CE)
+I (.\User\Headers\can.h)(0x5E4180BF)
+F (.\User\Source\tims.c)(0x5E4172CE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\User\Headers -I .\CMSIS\Headers-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD-o .\objects\tims.o --omf_browse .\objects\tims.crf --depend .\objects\tims.d)
+I (.\CMSIS\Headers\stm32f10x.h)(0x5E3D25D7)
+I (.\CMSIS\Headers\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (.\CMSIS\Headers\system_stm32f10x.h)(0x4D7882FA)
+I (.\User\Headers\tims.h)(0x5E413FD8)
+I (.\User\Headers\gpio.h)(0x5E4172CE)
+I (.\User\Headers\can.h)(0x5E4180BF)
+F (.\User\Source\stm32_its.c)(0x5E418D82)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\User\Headers -I .\CMSIS\Headers-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD-o .\objects\stm32_its.o --omf_browse .\objects\stm32_its.crf --depend .\objects\stm32_its.d)
+I (.\CMSIS\Headers\stm32f10x.h)(0x5E3D25D7)
+I (.\CMSIS\Headers\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64D08)
+I (.\CMSIS\Headers\system_stm32f10x.h)(0x4D7882FA)
+I (.\User\Headers\tims.h)(0x5E413FD8)
+I (.\User\Headers\gpio.h)(0x5E4172CE)
+I (.\User\Headers\can.h)(0x5E4180BF)
+F (.\Startup\startup_stm32f10x_md.s)(0x4D788322)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 523" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)

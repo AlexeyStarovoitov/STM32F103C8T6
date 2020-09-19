@@ -1,0 +1,12 @@
+.\objects\mqtt.o: libs\MQTT-C\src\mqtt.c
+.\objects\mqtt.o: .\libs\MQTT-C\include\mqtt.h
+.\objects\mqtt.o: .\libs\MQTT-C\include\mqtt_pal.h
+.\objects\mqtt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mqtt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mqtt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mqtt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\mqtt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\mqtt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\mqtt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\objects\mqtt.o: .\User\Headers\enc28j60.h
+.\objects\mqtt.o: .\User\Headers\net.h
