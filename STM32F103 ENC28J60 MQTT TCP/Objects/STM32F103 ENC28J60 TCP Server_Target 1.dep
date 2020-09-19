@@ -1,120 +1,0 @@
-Dependencies for Project 'STM32F103 ENC28J60 TCP Server', Target 'Target 1': (DO NOT MODIFY !)
-F (.\CMSIS\Headers\core_cm3.h)(0x5EC383F8)()
-F (.\CMSIS\Headers\stm32f10x.h)(0x5EC383F8)()
-F (.\CMSIS\Headers\system_stm32f10x.h)(0x5EC383F8)()
-F (.\CMSIS\Sources\core_cm3.c)(0x5EC383F8)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Headers -I .\User\Headers -I .\libs\MQTT-C\include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
-F (.\CMSIS\Sources\system_stm32f10x.c)(0x5EC383F8)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Headers -I .\User\Headers -I .\libs\MQTT-C\include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
-I (.\CMSIS\Headers\stm32f10x.h)(0x5EC383F8)
-I (.\CMSIS\Headers\core_cm3.h)(0x5EC383F8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
-I (.\CMSIS\Headers\system_stm32f10x.h)(0x5EC383F8)
-F (.\Startup\startup_stm32f10x_md.s)(0x5EC383F8)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
-F (.\User\Headers\gpio.h)(0x5EC383F8)()
-F (.\User\Headers\spi.h)(0x5EC383F8)()
-F (.\User\Headers\enc28j60.h)(0x5EC383F8)()
-F (.\User\Headers\uart.h)(0x5EC383F8)()
-F (.\User\Headers\net.h)(0x5EC383F8)()
-F (.\User\Headers\tims.h)(0x5EC383F8)()
-F (.\User\Sources\main.c)(0x5EC383F8)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Headers -I .\User\Headers -I .\libs\MQTT-C\include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (.\CMSIS\Headers\stm32f10x.h)(0x5EC383F8)
-I (.\CMSIS\Headers\core_cm3.h)(0x5EC383F8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
-I (.\CMSIS\Headers\system_stm32f10x.h)(0x5EC383F8)
-I (.\User\Headers\gpio.h)(0x5EC383F8)
-I (.\User\Headers\spi.h)(0x5EC383F8)
-I (.\User\Headers\enc28j60.h)(0x5EC383F8)
-I (.\User\Headers\uart.h)(0x5EC383F8)
-I (.\User\Headers\net.h)(0x5EC383F8)
-I (.\User\Headers\tims.h)(0x5EC383F8)
-F (.\User\Sources\spi.c)(0x5EC383F8)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Headers -I .\User\Headers -I .\libs\MQTT-C\include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
-I (.\CMSIS\Headers\stm32f10x.h)(0x5EC383F8)
-I (.\CMSIS\Headers\core_cm3.h)(0x5EC383F8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
-I (.\CMSIS\Headers\system_stm32f10x.h)(0x5EC383F8)
-I (.\User\Headers\gpio.h)(0x5EC383F8)
-I (.\User\Headers\spi.h)(0x5EC383F8)
-F (.\User\Sources\enc28j60.c)(0x5F59E177)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Headers -I .\User\Headers -I .\libs\MQTT-C\include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD-o .\objects\enc28j60.o --omf_browse .\objects\enc28j60.crf --depend .\objects\enc28j60.d)
-I (.\CMSIS\Headers\stm32f10x.h)(0x5EC383F8)
-I (.\CMSIS\Headers\core_cm3.h)(0x5EC383F8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
-I (.\CMSIS\Headers\system_stm32f10x.h)(0x5EC383F8)
-I (.\User\Headers\gpio.h)(0x5EC383F8)
-I (.\User\Headers\enc28j60.h)(0x5EC383F8)
-I (.\User\Headers\spi.h)(0x5EC383F8)
-I (.\User\Headers\uart.h)(0x5EC383F8)
-I (.\User\Headers\tims.h)(0x5EC383F8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BC994)
-F (.\User\Sources\uart.c)(0x5EC383F8)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Headers -I .\User\Headers -I .\libs\MQTT-C\include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
-I (.\CMSIS\Headers\stm32f10x.h)(0x5EC383F8)
-I (.\CMSIS\Headers\core_cm3.h)(0x5EC383F8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
-I (.\CMSIS\Headers\system_stm32f10x.h)(0x5EC383F8)
-I (.\User\Headers\gpio.h)(0x5EC383F8)
-I (.\User\Headers\uart.h)(0x5EC383F8)
-F (.\User\Sources\stm32_it.c)(0x5EC383F8)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Headers -I .\User\Headers -I .\libs\MQTT-C\include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD-o .\objects\stm32_it.o --omf_browse .\objects\stm32_it.crf --depend .\objects\stm32_it.d)
-I (.\CMSIS\Headers\stm32f10x.h)(0x5EC383F8)
-I (.\CMSIS\Headers\core_cm3.h)(0x5EC383F8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
-I (.\CMSIS\Headers\system_stm32f10x.h)(0x5EC383F8)
-I (.\User\Headers\gpio.h)(0x5EC383F8)
-I (.\User\Headers\enc28j60.h)(0x5EC383F8)
-I (.\User\Headers\spi.h)(0x5EC383F8)
-I (.\User\Headers\uart.h)(0x5EC383F8)
-I (.\User\Headers\net.h)(0x5EC383F8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BC994)
-F (.\User\Sources\gpio.c)(0x5EC383F8)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Headers -I .\User\Headers -I .\libs\MQTT-C\include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
-I (.\CMSIS\Headers\stm32f10x.h)(0x5EC383F8)
-I (.\CMSIS\Headers\core_cm3.h)(0x5EC383F8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
-I (.\CMSIS\Headers\system_stm32f10x.h)(0x5EC383F8)
-I (.\User\Headers\gpio.h)(0x5EC383F8)
-F (.\User\Sources\net.c)(0x5F59EAAD)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Headers -I .\User\Headers -I .\libs\MQTT-C\include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD-o .\objects\net.o --omf_browse .\objects\net.crf --depend .\objects\net.d)
-I (.\CMSIS\Headers\stm32f10x.h)(0x5EC383F8)
-I (.\CMSIS\Headers\core_cm3.h)(0x5EC383F8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
-I (.\CMSIS\Headers\system_stm32f10x.h)(0x5EC383F8)
-I (.\User\Headers\gpio.h)(0x5EC383F8)
-I (.\User\Headers\enc28j60.h)(0x5EC383F8)
-I (.\User\Headers\spi.h)(0x5EC383F8)
-I (.\User\Headers\uart.h)(0x5EC383F8)
-I (.\User\Headers\net.h)(0x5EC383F8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BC994)
-F (.\User\Sources\tims.c)(0x5EC383F8)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Headers -I .\User\Headers -I .\libs\MQTT-C\include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD-o .\objects\tims.o --omf_browse .\objects\tims.crf --depend .\objects\tims.d)
-I (.\CMSIS\Headers\stm32f10x.h)(0x5EC383F8)
-I (.\CMSIS\Headers\core_cm3.h)(0x5EC383F8)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
-I (.\CMSIS\Headers\system_stm32f10x.h)(0x5EC383F8)
-I (.\User\Headers\tims.h)(0x5EC383F8)
-F (.\libs\MQTT-C\include\mqtt.h)(0x5F5B3A17)()
-F (.\libs\MQTT-C\include\mqtt_pal.h)(0x5F5B4039)()
-F (.\libs\MQTT-C\src\mqtt.c)(0x5F5B3FC9)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Headers -I .\User\Headers -I .\libs\MQTT-C\include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD-o .\objects\mqtt.o --omf_browse .\objects\mqtt.crf --depend .\objects\mqtt.d)
-I (.\libs\MQTT-C\include\mqtt.h)(0x5F5B3A17)
-I (.\libs\MQTT-C\include\mqtt_pal.h)(0x5F5B4039)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x588BC994)
-I (.\User\Headers\enc28j60.h)(0x5EC383F8)
-I (.\User\Headers\net.h)(0x5EC383F8)
-F (.\libs\MQTT-C\src\mqtt_pal.c)(0x5F5B411D)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Headers -I .\User\Headers -I .\libs\MQTT-C\include-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD-o .\objects\mqtt_pal.o --omf_browse .\objects\mqtt_pal.crf --depend .\objects\mqtt_pal.d)
-I (.\libs\MQTT-C\include\mqtt.h)(0x5F5B3A17)
-I (.\libs\MQTT-C\include\mqtt_pal.h)(0x5F5B4039)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x588BC994)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x588BC994)
-I (.\User\Headers\enc28j60.h)(0x5EC383F8)
-I (.\User\Headers\net.h)(0x5EC383F8)
